@@ -7,7 +7,7 @@ on:
   #push:
   schedule:
   # 定时任务，在 00:00 and 23:00 UTC every day进行运行.
-    - cron: '13 30 * * *'
+    - cron: '21 35 * * *'
 
 
 
