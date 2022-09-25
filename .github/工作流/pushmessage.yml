@@ -6,8 +6,8 @@ on:
   # 当对分支main进行push操作的时候，这个工作流就被触发了
   #push:
   schedule:
-  # 定时任务，在 08:00 and 15:00 UTC every day进行运行.
-    - cron: '13 20 * * *'
+  # 定时任务，在 00:00 and 23:00 UTC every day进行运行.
+    - cron: '13 30 * * *'
 
 
 
